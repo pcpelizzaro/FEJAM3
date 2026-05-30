@@ -20,7 +20,8 @@ public class ObstacleSpawnerScript : MonoBehaviour
         if(timePassed >timeBetweenObstacles)
         {
             float xPosition = player.transform.position.x + 20;
-            float yPosition = player.transform.position.y - ySpread;
+            float yOffset = Random.Range(-ySpread, ySpread);
+            float yPosition = player.transform.position.y - yOffset;
             float zPosition = player.transform.position.z;
             Instantiate(obstacle1, new Vector3(xPosition, yPosition, zPosition), new Quaternion()); 
             timePassed = 0;

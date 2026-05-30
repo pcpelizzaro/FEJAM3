@@ -28,7 +28,7 @@ public class PlayerScript : MonoBehaviour
         if(angle != prevAngle)
         {
             Debug.Log("Angle changed");
-            PlayerBody.linearVelocity = Quaternion.AngleAxis(initialAngle, Vector3.forward) * PlayerBody.linearVelocity;
+            PlayerBody.linearVelocity = Quaternion.AngleAxis(angle -prevAngle, Vector3.forward) * PlayerBody.linearVelocity;
             prevAngle = angle; 
         }
         Vector2 move = movement.ReadValue<Vector2>();
