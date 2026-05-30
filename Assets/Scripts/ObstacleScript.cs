@@ -5,8 +5,8 @@ public class ObstacleScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float forceY = 100;
     public float forceX = 100;
-    public Rigidbody2D playerBody;
-    public BoxCollider2D playerCollider;
+    private Rigidbody2D playerBody;
+    private BoxCollider2D playerCollider;
     private float prevXVelocity;
     void Start()
     {
@@ -16,6 +16,9 @@ public class ObstacleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GameObject Player = GameObject.FindWithTag("Player");
+        playerBody = Player.GetComponent<Rigidbody2D>();
+        playerCollider = Player.GetComponent<BoxCollider2D>();
         prevXVelocity = playerBody.linearVelocityX;
     }
     private void OnCollisionEnter2D(Collision2D collision)

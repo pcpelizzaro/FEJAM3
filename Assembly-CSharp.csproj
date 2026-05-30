@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ObstacleSpawnerScript.cs" />
     <Compile Include="Assets\Sprites\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\GameScript.cs" />
     <Compile Include="Assets\Scripts\ObstacleScript.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
   </ItemGroup>
