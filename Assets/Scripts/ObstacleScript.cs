@@ -37,4 +37,20 @@ public class ObstacleScript : MonoBehaviour
         playerBody.AddForce(collisionNormal);
 
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Vector2 closestPoint = collision.ClosestPoint(transform.position);
+
+        // Calculate the direction vector from the contact point to the player
+        Vector2 collisionNormal = ((Vector2)transform.position - closestPoint).normalized;
+
+        // Directly set the linear velocity instead of adding force
+        // collisionNormal.y determines the up/down direction of the impact (-1 or 1)
+        float appliedBump = forceY;
+        if (collisionNormal.y > 0) forceY = forceY / 2;
+        playerBody.linearVelocity = new Vector2(
+            prevXVelocity,
+            Mathf.Sign(collisionNormal.y) * -forceY
+        );
+    }
 }
