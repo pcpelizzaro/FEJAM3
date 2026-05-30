@@ -22,7 +22,7 @@ public class ObstacleScript : MonoBehaviour
         playerCollider = player.GetComponent<BoxCollider2D>();
         prevXVelocity = playerBody.linearVelocityX;
 
-        if(gameObject.transform.position.x - player.transform.position.x > 30)
+        if(player.transform.position.x - gameObject.transform.position.x > 30)
         {
             Destroy(gameObject);
         }
