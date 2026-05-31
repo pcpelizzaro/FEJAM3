@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pedro\\unity\\FEEJAM3\\",
+  "WorkspaceRootPath": "E:\\Unity\\FEEJAM3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\pedro\\unity\\feejam3\\assets\\sprites\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\feejam3\\assets\\scripts\\gamescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\feejam3\\assets\\sprites\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\pedro\\unity\\feejam3\\assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\feejam3\\assets\\scripts\\particlescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\particlescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\pedro\\unity\\feejam3\\assets\\scripts\\obstaclescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\feejam3\\assets\\scripts\\obstaclescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\pedro\\unity\\feejam3\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\feejam3\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\pedro\\unity\\feejam3\\assets\\scripts\\obstaclespawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclespawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\feejam3\\assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\pedro\\unity\\feejam3\\assets\\scripts\\gamescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\feejam3\\assets\\scripts\\obstaclespawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclespawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +38,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "ParticleScript.cs",
+              "DocumentMoniker": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\ParticleScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ParticleScript.cs",
+              "ToolTip": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\ParticleScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ParticleScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T23:33:37.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GroundScript.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\GroundScript.cs",
+              "DocumentMoniker": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\GroundScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GroundScript.cs",
-              "ToolTip": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\GroundScript.cs",
+              "ToolTip": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\GroundScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\GroundScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,11 +68,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CameraFollow.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\CameraFollow.cs",
+              "DocumentMoniker": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
-              "ToolTip": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,55 +81,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ObstacleScript.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\ObstacleScript.cs",
+              "DocumentMoniker": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\ObstacleScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleScript.cs",
-              "ToolTip": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\ObstacleScript.cs",
+              "ToolTip": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\ObstacleScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObstacleScript.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T10:51:43.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Sprites\\PlayerScript.cs",
+              "DocumentMoniker": "E:\\Unity\\FEEJAM3\\Assets\\Sprites\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\PlayerScript.cs",
-              "ToolTip": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Sprites\\PlayerScript.cs",
+              "ToolTip": "E:\\Unity\\FEEJAM3\\Assets\\Sprites\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Sprites\\PlayerScript.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T10:53:14.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "GameScript.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\GameScript.cs",
+              "DocumentMoniker": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\GameScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript.cs",
-              "ToolTip": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\GameScript.cs",
+              "ToolTip": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\GameScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T10:52:10.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ObstacleSpawnerScript.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\ObstacleSpawnerScript.cs",
+              "DocumentMoniker": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\ObstacleSpawnerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleSpawnerScript.cs",
-              "ToolTip": "C:\\Users\\pedro\\unity\\FEEJAM3\\Assets\\Scripts\\ObstacleSpawnerScript.cs",
+              "ToolTip": "E:\\Unity\\FEEJAM3\\Assets\\Scripts\\ObstacleSpawnerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObstacleSpawnerScript.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T05:54:34.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T05:54:34.565Z"
             }
           ]
         }

@@ -10,23 +10,42 @@ public class PlayerScript : MonoBehaviour
     public float yVelocity;
     public GameScript gameState;
 
+
+    private ParticleScript particleScript;
     private InputAction movement;
     private InputAction launchAction;
     private InputAction resetAction;
+    private InputAction particleAction;
     public float angleIncrement = 30f;
     private float prevAngle = 0;
     private float angle = 0;
     private bool isStarting = true;
+    private bool switchedParticles = false; 
     void Start()
     {
         //playerBody.linearVelocityX = xVelocity;
         gameState.StartingPos = playerBody.transform.position;
+        particleScript = GameObject.FindGameObjectWithTag("CandyController").GetComponent<ParticleScript>();
+
         movement = InputSystem.actions.FindAction("Move");
         launchAction = InputSystem.actions.FindAction("Jump");
         resetAction = InputSystem.actions.FindAction("Reset");
+        particleAction = InputSystem.actions.FindAction("Attack");
         playerBody.freezeRotation = true;
         isStarting = true;
+        setVisible(false);
         //PlayerBody.linearVelocity = Quaternion.AngleAxis(initialAngle, Vector3.forward) * PlayerBody.linearVelocity;
+    }
+    public void setVisible(bool state)
+    {
+        gameObject.GetComponent<SpriteRenderer>().enabled = state;
+    }
+    public void launch(Vector2 velocity)
+    {
+        playerBody.linearVelocity = velocity;
+        gameState.IsPlayerStarting = false;
+        gameState.IsPlayerGrounded = false;
+        setVisible(true);
     }
 
     // Update is called once per frame
@@ -41,13 +60,13 @@ public class PlayerScript : MonoBehaviour
             prevAngle = angle; 
         }
         Vector2 move = movement.ReadValue<Vector2>();
-        Debug.Log($"Move {move}");
+        //Tecla para cima
         if (move.y > 0.8f && !gameState.IsPlayerGrounded)
         {
             angle = angleIncrement;
-            Debug.Log("Up is pressed");
 
         }
+        //Tecla para baixo
         else if (move.y < -.2f && !gameState.IsPlayerGrounded)
         {
             angle = -angleIncrement;
@@ -60,9 +79,11 @@ public class PlayerScript : MonoBehaviour
         Debug.Log($"isStarting: {isStarting}");
         if (launchAction.IsPressed() && gameState.IsPlayerStarting == true)
         {
-            playerBody.linearVelocity = new Vector2(xVelocity, yVelocity);
-            gameState.IsPlayerStarting = false;
-            gameState.IsPlayerGrounded = false;
+            //launch(new Vector2(xVelocity, yVelocity));
+            //playerBody.linearVelocity = new Vector2(xVelocity, yVelocity);
+            //gameState.IsPlayerStarting = false;
+            //gameState.IsPlayerGrounded = false;
+            //setVisible(true);
         }
 
         if(!gameState.IsPlayerStarting && resetAction.IsPressed())
@@ -73,6 +94,16 @@ public class PlayerScript : MonoBehaviour
             //gameState.IsPlayerStarting = true;
             gameState.reset(gameObject);
         }
+
+        //Particle test
+        //if (particleAction.IsPressed())
+        //{
+        //    particleScript.switchParticles(true);
+        //}
+        //else
+        //{
+        //    particleScript.switchParticles(false);
+        //}
 
 
     }

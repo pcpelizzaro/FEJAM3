@@ -10,11 +10,17 @@ public class GameScript : MonoBehaviour
     public TextMeshProUGUI currencyText;
     public TextMeshProUGUI healthText;
     public GameObject player;
+    public ParticleScript particleScript;
     private bool isPlayerStarting = true;
     private bool isPlayerGrounded = true;
     private Vector2 startingPos;
     private int doces = 0;
     private int health = 10;
+
+    private float bleedTimer = 0;
+    private float bleedTime = 2;
+    private bool isBleeding = false;
+
     private List<GameObject> obstacles;
     public bool IsPlayerStarting { get => isPlayerStarting; set => isPlayerStarting = value; }
     public bool IsPlayerGrounded { get => isPlayerGrounded; set => isPlayerGrounded = value; }
@@ -30,18 +36,33 @@ public class GameScript : MonoBehaviour
             {
                 reset(player);
             }
+            else
+            {
+                isBleeding = true;
+                particleScript.switchParticles(true);
+                bleedTimer = 0;
+            }
         } }
 
     public Vector2 StartingPos { get => startingPos; set => startingPos = value; }
 
     void Start()
     {
-        
+        particleScript = GameObject.FindGameObjectWithTag("CandyController").GetComponent<ParticleScript>();
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        bleedTimer += Time.deltaTime;
+        if(bleedTimer > bleedTime && isBleeding)
+        {
+            bleedTimer = 0;
+            particleScript.switchParticles(false);
+            isBleeding = false;
+        }
         
     }
     public void clearGameObjects()
@@ -70,6 +91,7 @@ public class GameScript : MonoBehaviour
         player.GetComponent<Rigidbody2D>().transform.position = startingPos;
         //playerBody.transform.position = gameState.StartingPos;
         player.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 0);
+        player.GetComponent<PlayerScript>().setVisible(false);
         clearGameObjects();
         isPlayerStarting = true;
         Health = 10;

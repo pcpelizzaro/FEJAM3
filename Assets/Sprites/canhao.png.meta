@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8ca4633a0cdea094084d5e184162690f
+guid: 20ee7468be3c6454f8933f7c41609e05
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1912847882535621200
-    second: doce 2_0
+      213: 5396831972973273438
+    second: canhao_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: doce 2_0
+      name: canhao_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 15
-        width: 230
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 27
+        y: 27
+        width: 154
+        height: 158
+      alignment: 9
+      pivot: {x: 0.15600063, y: 0.15708935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 052d4e3b30dcb8a10800000000000000
-      internalID: 1912847882535621200
+      spriteID: e51ea85f51665ea40800000000000000
+      internalID: 5396831972973273438
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5eba3caa7e1a2b440b28f8c829618a3c
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      doce 2_0: 1912847882535621200
+      canhao_0: 5396831972973273438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
