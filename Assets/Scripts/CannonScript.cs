@@ -29,6 +29,7 @@ public class CannonScript : MonoBehaviour
 
     void Update()
     {
+        if (!gameState.IsPlayerStarting) return;
         // 1. Lógica de Rotação do Canhão
         float direcao = 0f;
         Vector2 move = movimento.ReadValue<Vector2>();

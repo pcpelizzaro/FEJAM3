@@ -9,6 +9,7 @@ public class PlayerScript : MonoBehaviour
     public float xVelocity;
     public float yVelocity;
     public GameScript gameState;
+    public UpgradeMenuScript upgradeMenuScript;
 
 
     private ParticleScript particleScript;
@@ -16,7 +17,6 @@ public class PlayerScript : MonoBehaviour
     private InputAction launchAction;
     private InputAction resetAction;
     private InputAction particleAction;
-    public float angleIncrement = 30f;
     private float prevAngle = 0;
     private float angle = 0;
     private bool isStarting = true;
@@ -26,6 +26,7 @@ public class PlayerScript : MonoBehaviour
         //playerBody.linearVelocityX = xVelocity;
         gameState.StartingPos = playerBody.transform.position;
         particleScript = GameObject.FindGameObjectWithTag("CandyController").GetComponent<ParticleScript>();
+
 
         movement = InputSystem.actions.FindAction("Move");
         launchAction = InputSystem.actions.FindAction("Jump");
@@ -63,13 +64,13 @@ public class PlayerScript : MonoBehaviour
         //Tecla para cima
         if (move.y > 0.8f && !gameState.IsPlayerGrounded)
         {
-            angle = angleIncrement;
+            angle = gameState.getMaxAngle();
 
         }
         //Tecla para baixo
         else if (move.y < -.2f && !gameState.IsPlayerGrounded)
         {
-            angle = -angleIncrement;
+            angle = -gameState.getMaxAngle();
         } else
         {
             angle = 0f;
@@ -92,7 +93,9 @@ public class PlayerScript : MonoBehaviour
             //playerBody.linearVelocity = new Vector2(0, 0);
             //gameState.clearGameObjects();
             //gameState.IsPlayerStarting = true;
-            gameState.reset(gameObject);
+
+            gameState.reset();
+            upgradeMenuScript.OpenMenu();
         }
 
         //Particle test
